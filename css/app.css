@@ -1,0 +1,41 @@
+/* app css stylesheet */
+
+.setTime1 { text-align: right; margin-top: 8 }
+.setTime2 { text-align: center }
+.setTime3 { text-align: left }
+.time0Label { font-size: 22px; text-align: right}
+.time0Value { font-size: 44px; text-align: left}
+.time1Label { text-align: right}
+.time1Value { font-size: 22px; text-align: left}
+.time2Label { text-align: right}
+.time2Value { font-size: 22px; text-align: left}
+.settings { font-size: 22px; margin-bottom: 22 }
+.submitButton { margin-bottom: 22 }
+.clockContainer { margin: 11 }
+
+@media (max-width: 768px) {
+  .setTime1 { text-align: center }
+  .setTime3 { text-align: center }
+  .submitButton { width: 100% }
+  .setTimeInput { width: 100%; margin: 11 0 11 }
+  .time0Value { text-align: right}
+  .time1Value { text-align: right}
+  .time2Value { text-align: right}
+}
+
+@media (min-width: 768px) {
+  .time0Label { margin-top: 22 }
+  .time1Label { margin-top: 5 }
+  .time2Label { margin-top: 5 }
+}
+
+@media (min-width: 992px) {
+  .setTime1 { margin-top: 8 }
+  .time0Label { margin-top: 18 }
+  .time0Value {  }
+  .time1Label { margin-top: 25 }
+  .time1Value { margin-top: 18 }
+  .time2Label { margin-top: 25 }
+  .time2Value { margin-top: 18 }
+}
+
